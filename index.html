@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بانک سوالات ریاضی هشتم</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- تب‌ها -->
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="home">خانه</button>
+            <button class="tab-button" data-tab="questions">سوالات</button>
+        </nav>
+
+        <!-- محتوای اصلی -->
+        <main>
+            <!-- خانه -->
+            <section id="home" class="tab-content active">
+                <h1>به بانک سوالات ریاضی خوش آمدید!</h1>
+                <p>این سایت برای مدیریت و اشتراک‌گذاری سوالات ریاضی طراحی شده است.</p>
+            </section>
+
+            <!-- سوالات -->
+            <section id="questions" class="tab-content">
+                <h1>سوالات</h1>
+                <!-- دسته‌بندی‌ها -->
+                <div class="categories">
+                    <h2>دسته‌بندی‌ها</h2>
+                    <div class="category">
+                        <h3>نمونه سوالات آزمون تیمز</h3>
+                        <div class="upload-section" id="timss">
+                            <form id="uploadFormTimss">
+                                <input type="text" id="uploadCodeTimss" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListTimss"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>محاسبات اعداد گویا</h3>
+                        <div class="upload-section" id="rationalNumbers">
+                            <form id="uploadFormRational">
+                                <input type="text" id="uploadCodeRational" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListRational"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>معادله و تجزیه عبارت‌های جبری</h3>
+                        <div class="upload-section" id="algebraicEquations">
+                            <form id="uploadFormAlgebraic">
+                                <input type="text" id="uploadCodeAlgebraic" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListAlgebraic"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>رابطه فیثاغورس</h3>
+                        <div class="upload-section" id="pythagoreanTheorem">
+                            <form id="uploadFormPythagorean">
+                                <input type="text" id="uploadCodePythagorean" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListPythagorean"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>توان و جذر</h3>
+                        <div class="upload-section" id="powersAndRoots">
+                            <form id="uploadFormPowers">
+                                <input type="text" id="uploadCodePowers" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListPowers"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>زاویه‌های مرکزی و محاطی در دایره</h3>
+                        <div class="upload-section" id="circleAngles">
+                            <form id="uploadFormCircleAngles">
+                                <input type="text" id="uploadCodeCircle" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListCircleAngles"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>هم‌نهشتی مثلث‌ها</h3>
+                        <div class="upload-section" id="triangleCongruence">
+                            <form id="uploadFormTriangle">
+                                <input type="text" id="uploadCodeTriangle" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListTriangle"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>احتمال</h3>
+                        <div class="upload-section" id="probability">
+                            <form id="uploadFormProbability">
+                                <input type="text" id="uploadCodeProbability" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListProbability"></ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <h3>بردار و مختصات</h3>
+                        <div class="upload-section" id="vectors">
+                            <form id="uploadFormVectors">
+                                <input type="text" id="uploadCodeVectors" placeholder="کد اعتبارسنجی">
+                                <input type="file" name="file" accept=".pdf,.doc,.docx">
+                                <button type="submit">آپلود</button>
+                            </form>
+                            <ul class="file-list" id="fileListVectors"></ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- فوتر -->
+        <footer>
+            <p class="footer-text">نمونه بانک سوالات ریاضی هشتم پارسا یزدانی و سعید نژاد مقدم دوره یازدهم خوارزمی نوجوانان (۱۴۰۳/۱۴۰۴)</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
